@@ -1,2 +1,2 @@
 # __base
-Hier finden sich die blanko Dateivorlagen
+Hier finden sich die blanko Dateivorlagen.
