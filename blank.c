@@ -1,11 +1,10 @@
 #include<stdio.h>
 
 int main () {
-
 	/*
 	*
 	*/
-
+	
 	printf("\n *************************************** ");
 	printf("\n *   ^,,,,^   *                        * ");
 	printf("\n *  ( o x o)  *                        * ");
@@ -14,7 +13,7 @@ int main () {
 	printf("\n *************************************** \n\n");
 	
 	//
-
+	
 	//Ende
 	printf("\n\n");
 	return 0;
