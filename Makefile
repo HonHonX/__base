@@ -1,4 +1,4 @@
-NAME = sieb
+NAME = x
 
 default: $(NAME)
 
