@@ -1,11 +1,13 @@
-default: x
+NAME = sieb
 
-rechner: x.o
-	gcc x.o -o x
+default: $(NAME)
+
+$(NAME): $(NAME).o
+	gcc $(NAME).o -o $(NAME)
 	
-rechner.o: rechner.c
-	gcc -c x.c -o x.o
+$(NAME).o: $(NAME).c
+	gcc -c $(NAME).c -o $(NAME).o
 
 clean:
-	-rm -f x.o
-	-rm -f x
+	-rm -f $(NAME).o
+	-rm -f $(NAME)
